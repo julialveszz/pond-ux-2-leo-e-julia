@@ -1,0 +1,52 @@
+[
+    {
+        "date": "2023-01-01",
+        "scopeChanges": 3,
+        "stressLevel": 5
+    },
+    {
+        "date": "2023-01-08",
+        "scopeChanges": 2,
+        "stressLevel": 4
+    },
+    {
+        "date": "2023-01-15",
+        "scopeChanges": 5,
+        "stressLevel": 6
+    },
+    {
+        "date": "2023-01-22",
+        "scopeChanges": 1,
+        "stressLevel": 3
+    },
+    {
+        "date": "2023-01-29",
+        "scopeChanges": 4,
+        "stressLevel": 7
+    },
+    {
+        "date": "2023-02-05",
+        "scopeChanges": 2,
+        "stressLevel": 5
+    },
+    {
+        "date": "2023-02-12",
+        "scopeChanges": 3,
+        "stressLevel": 4
+    },
+    {
+        "date": "2023-02-19",
+        "scopeChanges": 0,
+        "stressLevel": 2
+    },
+    {
+        "date": "2023-02-26",
+        "scopeChanges": 6,
+        "stressLevel": 8
+    },
+    {
+        "date": "2023-03-05",
+        "scopeChanges": 1,
+        "stressLevel": 3
+    }
+]
