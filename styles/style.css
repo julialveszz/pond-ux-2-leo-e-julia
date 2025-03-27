@@ -56,3 +56,16 @@ svg {
 .zoom {
     cursor: move;
 }
+
+.logo-container {
+    display: flex; /* Alinha os itens na mesma linha */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 10px; /* Espaço entre os elementos */
+    margin-top: 50px; /* Ajuste para posicionar melhor */
+}
+
+.logo-container img {
+    width: 300px; /* Ajuste o tamanho da logo conforme necessário */
+    height: auto;
+}
