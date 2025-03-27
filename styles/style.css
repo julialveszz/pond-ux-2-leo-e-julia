@@ -66,6 +66,28 @@ svg {
 }
 
 .logo-container img {
-    width: 300px; /* Ajuste o tamanho da logo conforme necessário */
+    width: 500px; /* Ajuste o tamanho da logo conforme necessário */
     height: auto;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(252, 10, 10);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(144, 12, 12);
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Ocupa 100% da altura da tela */
 }
