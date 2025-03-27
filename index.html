@@ -8,8 +8,20 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
-    <h1>Mudanças de escopo x nível de estresse dos alunos da T11 (CC)</h1>
-    <svg id="visualization" width="800" height="600"></svg>
+    <div id="chart-container">
+        <svg id="chart" width="800" height="600"></svg>
+        <div id="legend">
+            <h3>Mudanças de escopo x nível de estresse dos alunos da T11 (CC)</h3>
+            <h3>Legenda de fases:</h3>
+            <div><span class="color-box onboarding"></span> Onboarding: Nível de estresse 0, mudanças de escopo 0</div>
+            <div><span class="color-box kickoff"></span> Kick-off: Nível de estresse baixo, mudanças de escopo baixas</div>
+            <div><span class="color-box sprint-review-1"></span> Sprint Review 1: Nível de estresse alto, muitas mudanças de escopo</div>
+            <div><span class="color-box sprint-review-2"></span> Sprint Review 2: Nível de estresse mais alto ainda, muitas mudanças de escopo</div>
+            <div><span class="color-box sprint-review-3"></span> Sprint Review 3: Nível de estresse diminuiu, mudanças de escopo médias</div>
+            <div><span class="color-box sprint-review-4"></span> Sprint Review 4: Aguardando</div>
+            <div><span class="color-box sprint-review-5"></span> Sprint Review 5: Aguardando</div>
+        </div>
+    </div>
     <script src="scripts/main.js"></script>
 </body>
 </html>

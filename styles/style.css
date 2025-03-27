@@ -1,58 +1,23 @@
-body {
+#chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#legend {
+    margin-top: 20px;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
 }
 
-svg {
-    display: block;
-    margin: 20px auto;
-    border: 1px solid #ccc;
-    background-color: #fff;
+.color-box {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
 }
 
-.axis path,
-.axis line {
-    fill: none;
-    shape-rendering: crispEdges;
-}
-
-.axis text {
-    font-size: 12px;
-    fill: #333;
-}
-
-.circle {
-    fill: steelblue;
-    transition: fill 0.3s;
-}
-
-.circle:hover {
-    fill: orange;
-}
-
-.bar {
-    fill: lightcoral;
-    transition: fill 0.3s;
-}
-
-.bar:hover {
-    fill: darkred;
-}
-
-.tooltip {
-    position: absolute;
-    text-align: center;
-    width: 60px;
-    padding: 5px;
-    font: 12px sans-serif;
-    background: lightsteelblue;
-    border: 0px;
-    border-radius: 8px;
-    pointer-events: none;
-}
-
-.zoom {
-    cursor: move;
-}
+.onboarding { background-color: green; }
+.kickoff { background-color: blue; }
+.sprint-review-1 { background-color: red; }
+.sprint-review-2 { background-color: orange; }
+.sprint-review-3 { background-color: purple; }
